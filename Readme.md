@@ -35,7 +35,8 @@ Resource      |  GET      | POST      | PUT      | PATH     | DELETE      |
 ------------- | -------------|-------------|-------------|-------------|-------------|
 /cities       |return a list of entities*|add an entity |**|**|delete all entities|
 /cities/3     | return an entity by id|**|update an entity|update an entity|delete an entity by id|
-/cities/list  |**|add a list of entities|**|**|**|  
+/cities/list  |**|add a list of entities|**|**|**| 
+ 
 footnotes:  
 *:entities - city with description;  
 **:  Method not allowed (405)
