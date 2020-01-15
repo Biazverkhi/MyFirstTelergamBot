@@ -14,8 +14,10 @@ Java version  |8  #Usage|
 * [Click here to go to Telegram and add the @NewCityTourBot](https://telegram.me/NewCityTourBot)  
 * [Download and unpack the source code archive](https://github.com/Biazverkhi/MyFirstTelergamBot)   
 * Running an application in the development environment with Maven:
-    * Run `com.github.biazverkhi.bot.AppRunner` in module `rest`;
-    * Or enter in the Terminal (in my case Intellij IDEA):  
+   * Enter in the Terminal (in my case Intellij IDEA):  
+        1.`mvn install`;  
+        2.Run `com.github.biazverkhi.bot.AppRunner` in module `rest`;  
+    * Or enter in the Terminal:  
     1.`mvn install`;  
     2.`cd rest\target`;  
     3.`java -jar rest-1.0-SNAPSHOT.jar`
