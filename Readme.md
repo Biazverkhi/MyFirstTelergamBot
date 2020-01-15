@@ -11,6 +11,7 @@ Java version  |8
 
 
 ##Usage  
+
 * [Click here to go to Telegram and add the @NewCityTourBot](https://telegram.me/NewCityTourBot)  
 * [Download and unpack the source code archive](https://github.com/Biazverkhi/MyFirstTelergamBot)   
 * Running an application in the development environment with Maven:
@@ -25,7 +26,7 @@ Java version  |8
     * Москва;
     * Рим;
     * Венеция;
-    * Лиманск;
+    * Лиманск;  
 *use [Insomnia REST client](https://insomnia.rest/download/) to test the RESTful API that I provided below
 
 RESTful API:
@@ -34,7 +35,7 @@ Resource      |  GET      | POST      | PUT      | PATH     | DELETE      |
 ------------- | -------------|-------------|-------------|-------------|-------------|
 /cities       |return a list of entities*|add an entity |**|**|delete all entities|
 /cities/3     | return an entity by id|**|update an entity|update an entity|delete an entity by id|
-/cities/list  |**|add a list of entities|**|**|**|
+/cities/list  |**|add a list of entities|**|**|**|  
 footnotes:  
 *:entities - city with description;  
 **:  Method not allowed (405)
