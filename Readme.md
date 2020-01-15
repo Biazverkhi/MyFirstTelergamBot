@@ -9,6 +9,10 @@ DB            | **MySQL** [db4free.net](db4free.net) *(the database is hosted on
 URL           | **[http://localhost:8080/cities](http://localhost:8080/cities)**|
 Java version  |8  #Usage|  
   
+## Аttention  
+The application may not start the first time because the connection to the external database exceeds the timeout. If the connection fails when you start the program, try again.
+
+
 ## Usage
 
 * [Click here to go to Telegram and add the @NewCityTourBot](https://telegram.me/NewCityTourBot)  
