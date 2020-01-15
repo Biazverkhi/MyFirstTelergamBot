@@ -9,7 +9,7 @@ DB            | **MySQL** [db4free.net](db4free.net) *(the database is hosted on
 URL           | **[http://localhost:8080/cities](http://localhost:8080/cities)**|
 Java version  |8  #Usage|  
   
-##Usage
+## Usage
 
 * [Click here to go to Telegram and add the @NewCityTourBot](https://telegram.me/NewCityTourBot)  
 * [Download and unpack the source code archive](https://github.com/Biazverkhi/MyFirstTelergamBot)   
@@ -28,7 +28,7 @@ Java version  |8  #Usage|
     * Лиманск;  
 *use [Insomnia REST client](https://insomnia.rest/download/) to test the RESTful API that I provided below
 
-##RESTful API:
+## RESTful API:
 
 Resource      |  GET      | POST      | PUT      | PATH     | DELETE      |
 ------------- | -------------|-------------|-------------|-------------|-------------|
