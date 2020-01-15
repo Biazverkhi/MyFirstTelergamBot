@@ -81,7 +81,7 @@ public class CityRestController {
         return "OK";
     }
 
-    @DeleteMapping(value = "/all")
+    @DeleteMapping(value = "")
     @ResponseStatus(HttpStatus.OK)
     public String deleteCityAll() {
         cityService.deleteCityAll();
