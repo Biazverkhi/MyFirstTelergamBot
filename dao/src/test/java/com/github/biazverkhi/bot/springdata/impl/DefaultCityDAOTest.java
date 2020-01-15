@@ -80,9 +80,11 @@ class DefaultCityDAOTest {
 
     @Test
     void addListCity() {
-        List<City> list = List.of(
-                new City(null, "Воронеж", "Не знаю"),
-                new City(null, "Венеция", "На воде"));
+        City city = new City(null, "Воронеж", "Не знаю");
+        City city2 = new City(null, "Венеция", "На воде");
+        List<City> list = new ArrayList<>();
+        list.add(city);
+        list.add(city2);
         assertFalse((dao.addListCity(list)).isEmpty());
         dao.deleteCityAll();
         assertTrue((dao.addListCity(new ArrayList<>())).isEmpty());
